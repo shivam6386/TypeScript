@@ -17,9 +17,9 @@ TS don't do any type checking at runtime.It do typecking at compile time.
 */
 
 let id : number = 5;
-let firstName = "Sanket"; // TS understands by it self firstName will store  as strings
+let firstName = "Shivam"; // TS understands by it self firstName will store  as strings
 // firstName = 12; TSC throws error because TS doesn't support dynamic typing .javascript support dynamic typing.If we define variable type as any than it support dynamic typing
-var lastName : string = "Singh";
+var lastName : string = "Tripathi";
 // lastName = 13; TSC throws error
 console.log(id, firstName);
 
@@ -29,7 +29,7 @@ let userId : number | string = "26";
 userId = 10;
 
 let x : any = 10;
-x = "sanket";
+x = "shivam";
 x = false;
 console.log(x);
 
@@ -46,12 +46,12 @@ console.log(x);
 let ids : number[] = [1,2,3,4,5];
 let hetero : any[] = [1,2,false,"123", null];
 
-let data : (number | string | boolean)[] = [1, "sanket", true];
+let data : (number | string | boolean)[] = [1, "shivam", true];
 
 console.log(ids, hetero, data);
 
 // arrays in form of typed tuple
-let data1 : [number , string , boolean] = [1, "sanket", true]; 
+let data1 : [number , string , boolean] = [1, "shivam", true]; 
 
 
 /**
